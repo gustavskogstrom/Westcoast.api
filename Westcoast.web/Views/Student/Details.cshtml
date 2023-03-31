@@ -1,0 +1,52 @@
+@model Westcoast.web.ViewModels.Students.StudentDetailsViewModel
+@{
+    Layout = "_LayoutAdmin";
+}
+<section class="page">
+<h1>Details om student</h1>
+<div class="table-container">
+    
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Förnamn</th>
+            <th>Efternamn</th>
+            <th>AnvändarID</th>
+            <th>Email</th>
+            <th>Telefonnummer</th>
+            <th>Gatuadress</th>
+            <th>Postnummer</th>
+            <th></th>
+            
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td></td>
+                <td>@Model.FirstName</td>
+                <td>@Model.LastName</td>
+                <td>@Model.StudentId</td>
+                <td>@Model.Email</td>
+                <td>@Model.Phone</td>
+                <td>@Model.StreetAdress</td>
+                <td>@Model.PostalCode</td>
+                <td></td>
+            </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tfoot>
+</table>
+</div>
+</section>

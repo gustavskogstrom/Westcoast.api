@@ -1,0 +1,20 @@
+[
+    {
+        "CourseId": "296ca46a-626b-4202-a476-7457ee8287df",
+        "CourseName":"Engelska 6",
+        "CourseTitle":"Eng6",
+        "StartDate": "2022-06-01",
+        "EndDate": "2023-01-12",
+        "CourseLenght": 1,
+        "TeacherId" : "2f4b0bf9-0959-4592-bffb-fdb336c51230"
+    },
+    {
+        "CourseId": "f3d33cf6-b9bb-42ef-9e79-039cd69c2619",
+        "CourseName":"Matematik 3",
+        "CourseTitle":"Matte3",
+        "StartDate": "2022-06-01",
+        "EndDate": "2023-01-12",
+        "CourseLenght": 1,
+        "TeacherId" : "8924ef0f-3512-4f1c-b7ed-87af4a6016ef"
+    }
+]

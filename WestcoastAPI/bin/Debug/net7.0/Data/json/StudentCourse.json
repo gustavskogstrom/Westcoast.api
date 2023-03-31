@@ -1,0 +1,17 @@
+[
+{
+    "CourseId": "296ca46a-626b-4202-a476-7457ee8287df",
+    "StudentId": "45eed737-eb78-4d40-91a8-419fafd7f921",
+    "Status": 0
+},
+{
+    "CourseId": "296ca46a-626b-4202-a476-7457ee8287df",
+    "StudentId": "947a75af-bab4-4c2c-bfb1-99d431d62800",
+    "Status": 0
+},
+{
+    "CourseId": "f3d33cf6-b9bb-42ef-9e79-039cd69c2619",
+    "StudentId": "4b917c98-d6a9-4d2b-a635-33e0bf56f337",
+    "Status": 0
+}
+]

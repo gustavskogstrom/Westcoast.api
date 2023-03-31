@@ -1,0 +1,45 @@
+@model IList<Westcoast.web.ViewModels.Teachers.TeacherListViewModel>
+@{
+    Layout = "_LayoutAdmin";
+}
+<section class="page">
+<h1>Aktuella lärare</h1>
+<div class="table-container">
+    
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Förnamn</th>
+            <th>Efternamn</th>
+            <th>Email</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Teacher in Model)
+        {
+            <tr>
+                <td></td>
+                <td>@Teacher.FirstName</td>
+                <td>@Teacher.LastName</td>
+                <td>@Teacher.Email</td>
+                <td><a asp-action="Details" asp-controller="Teacher" asp-route-TeacherId=@Teacher.TeacherId>More details</a></td>
+                <td></td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tfoot>
+</table>
+</div>
+</section>

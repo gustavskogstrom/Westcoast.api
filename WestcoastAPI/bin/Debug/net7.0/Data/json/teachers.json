@@ -1,0 +1,20 @@
+[
+    {
+        "TeacherId" : "2f4b0bf9-0959-4592-bffb-fdb336c51230",
+        "FirstName" : "Agust",
+        "LastName" : "Benary",
+        "Email" : "agust@gmail.com",
+        "PhoneNumber" : "0735086830",
+        "StreetAdress" : "Apelsin",
+        "PostalCode" : "3342"
+    },
+    {
+        "TeacherId" : "8924ef0f-3512-4f1c-b7ed-87af4a6016ef",
+        "FirstName" : "Moa",
+        "LastName" : "Hannar",
+        "Email" : "moa@gmail.com",
+        "PhoneNumber" : "0735086830",
+        "StreetAdress" : "Sand",
+        "PostalCode" : "3325"
+    }
+]

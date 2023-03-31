@@ -1,0 +1,35 @@
+[
+    {
+        "FirstName" : "Gustav",
+        "LastName" : "Skogström",
+        "StudentId" : "45eed737-eb78-4d40-91a8-419fafd7f921",
+        "Email" : "gustav.skogstrom@gmail.com",
+        "PhoneNumber" : "0735086830",
+        "StreetAdress" : "Apelsin",
+        "PostalCode" : "3342",
+        "CourseId" : "296ca46a-626b-4202-a476-7457ee8287df"
+        
+    },
+    {
+        "FirstName" : "Therese",
+        "LastName" : "Skogström",
+        "StudentId" : "947a75af-bab4-4c2c-bfb1-99d431d62800",
+        "Email" : "Therese@gmail.com",
+        "PhoneNumber" : "0735086830",
+        "StreetAdress" : "Sand",
+        "PostalCode" : "3325",
+        "CourseId" : "296ca46a-626b-4202-a476-7457ee8287df"
+        
+    },
+    {
+        "FirstName" : "Anders",
+        "LastName" : "Freds",
+        "StudentId" : "4b917c98-d6a9-4d2b-a635-33e0bf56f337",
+        "Email" : "Anders@gmail.com",
+        "Phone" : "0735086830",
+        "StreetAdress" : "Citron",
+        "PostalCode" : "4253",
+        "CourseId": "f3d33cf6-b9bb-42ef-9e79-039cd69c2619"
+        
+    }
+]
